@@ -1,4 +1,4 @@
-//import { typeGentlemen } from "../../mocks/mock_gentlemens";
+//import { typeGentlemen } from "../../mocks/MOCK_GENTLEMEN";
 
 export function Gentlemen({ ...props }) {
   return (

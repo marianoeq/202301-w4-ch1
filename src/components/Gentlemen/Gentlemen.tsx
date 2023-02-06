@@ -11,7 +11,7 @@ export function Gentlemen({ ...props }) {
               src={props.picture}
               alt="The Fary pointing at you"
             />
-            <span className="gentleman__initial">F</span>
+            <span className="gentleman__initial">{props.initial}</span>
           </div>
           <div className="gentleman__data-container">
             <h2 className="gentleman__name">{props.name}</h2>
@@ -30,8 +30,10 @@ export function Gentlemen({ ...props }) {
               </li>
             </ul>
           </div>
-          <i className="icon gentleman__icon fas fa-check"></i>
-          <i className="icon gentleman__icon gentleman__icon--delete fas fa-times"></i>
+          <i className="icon gentleman__icon fas fa-check">✅</i>
+          <i className="icon gentleman__icon gentleman__icon--delete fas fa-times">
+            ❌
+          </i>
         </li>
       </ul>
     </main>

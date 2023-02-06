@@ -1,10 +1,10 @@
-import { mock_gentlemens } from "../../mocks/mock_gentlemens";
+import { MOCK_GENTLEMEN } from "../../mocks/MOCK_GENTLEMEN";
 import { Gentlemen } from "../Gentlemen/Gentlemen";
 
 export function Info() {
   return (
     <>
-      {mock_gentlemens.map((characters) => (
+      {MOCK_GENTLEMEN.map((characters) => (
         <Gentlemen
           id={characters.id}
           picture={characters.picture}
